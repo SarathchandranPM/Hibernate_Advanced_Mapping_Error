@@ -76,9 +76,4 @@ public class Teacher {
 		return "Teacher [id=" + id + ", f_name=" + f_name + ", l_name=" + l_name + ", email=" + email + "]";
 	}
 
-	public void setTeacherDetails(TeacherDetails details) {
-		// TODO Auto-generated method stub
-		
-	}
-
 }
