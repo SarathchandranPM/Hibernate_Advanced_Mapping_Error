@@ -18,7 +18,7 @@ public class Operations {
 			Teacher teacher= new Teacher("Sarathchandran","PM","pmsarathchandran@gmail.com");
 			TeacherDetails details= new TeacherDetails("Physics", "Malappuram","O+");
 			
-			teacher.setTeacherDetails(details);
+			teacher.setTeacherDetails(details);// I am not getting this set methos in the suggestions
 			session.beginTransaction();
 			session.save(teacher);
 			session.getTransaction().commit();
